@@ -33,6 +33,7 @@
             onclick="showMessage()">
     </div>
 
+
     <div>
         <div
             style="display: inline-flex; border-radius: 6px; overflow: hidden; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
@@ -51,9 +52,9 @@
         letter-spacing: 1px;
         min-width: 60px;
         height: 32px;
-        -webkit-tap-highlight-color: transparent;" onmouseover="this.style.background='#6B7280'"
-                onmouseout="this.style.background='#4B5563'"
-                data-npub="npub1a3pvwe2p3v7mnjz6hle63r628wl9w567aw7u23fzqs062v5vqcqqu3sgh3"
+        -webkit-tap-highlight-color: transparent;
+      " data-npub="npub1a3pvwe2p3v7mnjz6hle63r628wl9w567aw7u23fzqs062v5vqcqqu3sgh3"
+                data-naddr="naddr1qvzqqqymz5pzpmzzcaj5rzeah8y940ln4z855wa72af4a6aac4zjypql55egcpsqqy88wumn8ghj77tpvf6jumt99uqpwmr0dd6hjmmh9enkjargw43zu6t09a6x2um59uzmnpl3"
                 data-relays="wss://relay.nostr.band,wss://relay.damus.io,wss://nos.lol,wss://nostr.bitcoiner.social,wss://relay.nostr.wirednet.jp,wss://yabu.me">
                 Zap
             </button>
@@ -72,18 +73,20 @@
         letter-spacing: 1px;
         min-width: 60px;
         height: 32px;
-        -webkit-tap-highlight-color: transparent;" onmouseover="this.style.background='#6B7280'"
-                onmouseout="this.style.background='#4B5563'" data-title=""
-                data-nzv-id="npub1a3pvwe2p3v7mnjz6hle63r628wl9w567aw7u23fzqs062v5vqcqqu3sgh3" data-zap-color-mode="true"
+        -webkit-tap-highlight-color: transparent;
+      " data-title=""
+                data-nzv-id="naddr1qvzqqqymz5pzpmzzcaj5rzeah8y940ln4z855wa72af4a6aac4zjypql55egcpsqqy88wumn8ghj77tpvf6jumt99uqpwmr0dd6hjmmh9enkjargw43zu6t09a6x2um59uzmnpl3"
+                data-zap-color-mode="true"
                 data-relay-urls="wss://relay.nostr.band,wss://relay.damus.io,wss://nos.lol,wss://nostr.bitcoiner.social,wss://relay.nostr.wirednet.jp,wss://yabu.me">
                 View
             </button>
         </div>
     </div>
 
+
     <script src="script.js"></script>
-    <script src=nostr-zap-view5.js></script>
-    <!-- <script src="script.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/nostr-zap@1.1"></script>
+    <script src="https://cdn.jsdelivr.net/npm/nostr-zap-view@1"></script>
 </body>
 
 </html>
